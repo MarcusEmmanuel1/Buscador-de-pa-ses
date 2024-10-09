@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Roboto";
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos do body */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo da seção de busca */
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputBusca {
+  flex: 1;
+}
+
+.inputBusca input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilo dos filtros */
+.filtros {
+  display: flex;
+  align-items: center;
+}
+
+.filtros input[type="radio"] {
+  margin-left: 10px;
+}
+
+/* Estilo do total de países */
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Estilo da lista de países */
+.todosPaises {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pais {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pais img {
+  border-radius: 5px;
+}
+
+/* Estilo para o texto do país */
+.pais p {
+  margin-top: 10px;
+  font-weight: bold;
+}

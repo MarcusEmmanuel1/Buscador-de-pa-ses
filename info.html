@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do País</title>
+    <link rel="stylesheet" href="style.info.css">
+    
+    <!-- Link para o CSS do Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 400px; /* Defina a altura do mapa */
+            width: 100%; /* O mapa ocupará toda a largura */
+        }
+        body {
+            display: flex;
+            flex-direction: column; /* Organiza os elementos em coluna */
+            align-items: center; /* Centraliza os elementos horizontalmente */
+            font-family: Arial, sans-serif; /* Estilo da fonte */
+            margin: 0;
+            padding: 20px;
+        }
+        #paisDetalhes {
+            margin-bottom: 20px; /* Espaço entre detalhes do país e o mapa */
+        }
+    </style>
+</head>
+<body>
+    <div id="paisDetalhes" class="detalhesPais"></div>
+    <div id="map"></div> <!-- Div para o mapa -->
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="info.js"></script>
+</body>
+</html>

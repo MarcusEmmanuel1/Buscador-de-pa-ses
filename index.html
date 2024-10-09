@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador de países</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Buscador de Países</h1>
+
+    <div class="subHeader">
+        <div class="inputBusca"> 
+            Pesquisar país: <input id="inputBusca" type="text" placeholder="Digite o nome do país" onkeyup="buscarPaises(this.value)" />
+        </div>
+        <div class="filtros" onclick="filtroPaises()">
+            <input type="radio" name="filtros" value="all" checked /> Todos
+            <input type="radio" name="filtros" value="North America" /> América do Norte
+            <input type="radio" name="filtros" value="Central America" /> América Central
+            <input type="radio" name="filtros" value="South America" /> América do Sul
+            <input type="radio" name="filtros" value="Europe" /> Europa
+            <input type="radio" name="filtros" value="Asia" /> Ásia
+            <input type="radio" name="filtros" value="Africa" /> África
+        </div>
+    </div>
+
+    <h2>Total de países: <span id="qtPaises">250</span></h2>
+    <div class="todosPaises"></div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
