@@ -51,4 +51,5 @@ Para executar este projeto em sua máquina local, siga os passos abaixo:
 
   
 # Contato
-Se você tiver dúvidas ou comentários, entre em contato comigo pelo e-mail marcusemmanuel131@gmail.com.
+Se você tiver dúvidas ou comentários, entre em contato comigo pelo e-mail marcusemmanuel131@gmail.com ou pelo meu instagram https://www.instagram.com/_marcus_emmanuel_3/.
+
