@@ -25,5 +25,24 @@ Este projeto é um buscador de países que utiliza a API "REST Countries" para e
   - Área geográfica
   - Link para o Google Maps
 
-## Estrutura do Projeto
 
+## Como Executar o Projeto
+
+Para executar este projeto em sua máquina local, siga os passos abaixo:
+
+1. **Clone o repositório:**
+   Abra o terminal e execute o seguinte comando:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+2. Abra o arquivo index.html: Você pode abrir o arquivo diretamente em seu navegador de preferência.
+
+3. Clique com o botão direito no arquivo index.html e selecione "Abrir com" e escolha seu navegador, ou
+Arraste o arquivo para a janela do navegador.
+Utilize a aplicação:
+
+4. Na página inicial, você pode pesquisar países pelo nome e filtrar por continente.
+Clique em um país na lista para ver mais detalhes na página de informações.
+
+Contato
+Se você tiver dúvidas ou comentários, entre em contato comigo pelo e-mail marcusemmanuel131@gmail.com.
